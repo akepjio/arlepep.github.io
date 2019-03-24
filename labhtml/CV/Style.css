@@ -1,0 +1,105 @@
+/* Style de la page */
+
+html{
+	margin: 0;
+	padding: 0;
+}
+
+/* Prop du body */
+body{
+	background-color: #6e7f80;
+	padding: 20px;
+	margin: 0;
+}
+
+/* Main */
+.main{
+	max-width: 1000px;
+	margin: auto;
+	background-color: #f2f3f4;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 1px 5px 10px black;
+}
+
+.sub_main > p{
+	padding-left: 40px;
+}
+
+/* Image */
+.photo_profile{
+	width: 30%;
+	height: auto;
+	border-radius: 500px;
+	float: right;
+	margin: 40px;
+	box-shadow: 3px 3px 5px;
+}
+
+.photo_profile:hover {
+	transform: scale(1.3);
+	transition: 0.5s linear 0.1s;
+}
+
+.info_perso{
+	max-width: 500px;
+	max-height: 200px;
+}
+
+.label{
+	display: block;
+	color: #e30022;
+}
+
+span{
+	color: #002e63;
+}
+
+td,th{
+	width: 400px;
+	text-align: center;
+	height: 50px;
+	border-bottom: 1px solid #ddd;
+	font-size: 20px;
+	font-family: Cambria Math;
+}
+
+.title{
+	font-weight: bold;
+	font-family: Lucida Console;
+	text-transform: uppercase;
+	font-size: 25px;
+	color: #002e63;
+}
+
+p{
+	font-size: 19px;
+	font-family: Cambria Math;
+}
+
+li{
+	font-size: 19px;
+}
+
+ul{
+	padding-left: 70px;
+}
+
+hr{
+	max-height: 5px;
+	background-color: #002e63;
+	box-shadow: 3px 3px 5px;
+}
+
+th{
+	color: #e30022;
+}
+
+h2{
+	font-size: 70px;
+	font-family: Lucida Console;
+	text-align: center;
+	color: #002e63;
+	padding-top: 10px;
+	text-shadow: 3px 3px 5px;
+}

@@ -21,4 +21,9 @@ body {
   ul.navbar a {
     text-decoration: none
   }
-  
+  .fav{
+  color: red ;
+  }
+  .other{
+    color:mediumblue;
+  }
