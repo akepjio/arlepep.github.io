@@ -57,12 +57,7 @@ function addItem(){
 
 
 function removeItems(){
-//     var num = document.getElementById('num').value;
-//     var lis = document.querySelectorAll('#element li');
-// for(var i = num; li=lis[i]; i++ ) {
-//     li.parentNode.removeChild(li);
-// }
 var num = document.getElementById('num').value;
 var lis = document.getElementById("element");
-lis.removeChild(lis.childNodes[num-1]);
+lis.removeChild(lis.childNodes[num]);
 }
